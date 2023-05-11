@@ -20,7 +20,7 @@ function Navbar() {
             <li>Home</li>
             <li>Books</li>
             <li>Blog</li>
-            <li>Contact Us</li>
+            <li>About Us</li>
           </ul>
         </div>
         <div className="nav-3">
@@ -42,13 +42,18 @@ function Navbar() {
         </div>
       </div>
       <div>
-      <div className={change ? "nope":"nav-2-mobile"}>
+        <div className={change ? "nope" : "nav-2-mobile"}>
+          
           <ul>
             <li>Home</li>
             <li>Books</li>
             <li>Blog</li>
-            <li id="nca">Contact Us</li>
+            <li>About Us</li>
+            <li>Cart</li>
+            <li>My Account </li>
+            
           </ul>
+  
         </div>
       </div>
     </div>
