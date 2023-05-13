@@ -1,12 +1,11 @@
-
 .App {
   text-align: center;
   font-family: "Poppins";
   background-color: #f2f5f7;
   display: flex;
   flex-direction: column;
-   height: -webkit-fill-available;
+  max-height:max-content;
 }
-.footer{
+.footer {
   bottom: 0;
 }
