@@ -1,0 +1,20 @@
+.index3 {
+  display: flex;
+  flex-direction: column;
+   
+   
+  padding: 10px;
+  
+}
+.index3 img {
+  width: auto;
+  max-height: 300px;
+  margin-top: 10px;
+}
+.index32{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: stretch;
+    margin-top: 15px;
+}
