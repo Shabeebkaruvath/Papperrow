@@ -1,10 +1,12 @@
 import React, { useState } from "react";
+
 import "./Navbar.css";
 import cart from "./cart.png";
 import search from "./search.png";
 import account from "./male.png";
 import menu from "./menu.png";
 import close from "./close.png";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [change, setChange] = useState(true);
@@ -17,10 +19,26 @@ function Navbar() {
         </div>
         <div className="nav-2">
           <ul>
-            <li>Home</li>
-            <li>Books</li>
-            <li>Blog</li>
-            <li>About Us</li>
+            <li>
+              <Link to="/" className="nav-link">
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link to="/book" className="nav-link">
+                Book
+              </Link>
+            </li>
+            <li>
+              <Link to="/blog" className="nav-link">
+                Blog
+              </Link>
+            </li>
+            <li>
+              <Link to="/about" className="nav-link">
+                About Us
+              </Link>
+            </li>
           </ul>
         </div>
         <div className="nav-3">
@@ -43,17 +61,30 @@ function Navbar() {
       </div>
       <div>
         <div className={change ? "nope" : "nav-2-mobile"}>
-          
           <ul>
-            <li>Home</li>
-            <li>Books</li>
-            <li>Blog</li>
-            <li>About Us</li>
+            <li>
+              <Link to="/" className="nav-link">
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link to="/book" className="nav-link">
+                Book
+              </Link>
+            </li>
+            <li>
+              <Link to="/blog" className="nav-link">
+                Blog
+              </Link>
+            </li>
+            <li>
+              <Link to="/about" className="nav-link">
+                About Us
+              </Link>
+            </li>
             <li>Cart</li>
             <li>My Account </li>
-            
           </ul>
-  
         </div>
       </div>
     </div>

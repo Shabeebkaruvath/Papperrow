@@ -6,7 +6,7 @@
   font-weight: bolder;
 }
 .foot-main {
-    position: fixed;
+     
   bottom: 0;
   width: 100%;
   position: relative;
@@ -65,6 +65,7 @@
     }
     .foot-main {
       height: auto;
+       
     }
     .foot2 {
       flex-wrap: wrap;
@@ -95,6 +96,7 @@
   .foot-main {
     height: auto;
     flex-direction: column;
+     
   }
   .foot2 {
     flex-wrap: wrap;
@@ -117,3 +119,4 @@
     text-align: center;
   }
 }
+ 
