@@ -5,6 +5,7 @@ import book2 from "./book2.jpg";
 import book3 from "./book4.jpg";
 import book4 from "./book6.jpg";
 import book5 from "./book8.jpg";
+import {Link} from "react-router-dom"
 function homethree() {
   return (
     <div className="index3">
@@ -19,7 +20,7 @@ function homethree() {
         <img src={book5} alt="5" />
       </div>
       <div className="index33">
-        <button className="btn-viewmore">View More</button>
+        <button className="btn-viewmore"><Link to="/book">View More</Link></button>
       </div>
     </div>
   );
