@@ -1,1 +1,1 @@
-This is an e-commerce website built using ReactJS. It features a fully-functional navbar with search, cart, and account icons, and a menu that can be toggled open and closed. The website is designed to be mobile-responsive and is suitable for use on a variety of devices.
+This is an e-commerce website built using ReactJS. The website is designed to be mobile-responsive and is suitable for use on a variety of devices.
