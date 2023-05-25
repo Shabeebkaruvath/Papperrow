@@ -81,6 +81,29 @@
   flex-direction: column;
   width: 50%;
 }
+.more-img {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: stretch;
+  padding: 70px;
+}
+.img-book img {
+  width: 280px;
+  border: 1px solid black;
+  border-radius: 0;
+}
+.img-book p {
+   font-family: cursive;
+}
+.img-book {
+  display: flex;
+  margin-bottom: 25px;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+}
 @media (width<=425px) {
   .bookone {
     margin: 0;
