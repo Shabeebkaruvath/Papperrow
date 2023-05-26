@@ -19,62 +19,61 @@ function book3() {
         <div className="img-book">
           <img src={pic1} alt="" />
           <p>
-            <b>Book Name</b>
+            <b>THE MONK WHO SOLD HIS FERRARI</b>
           </p>
-          <pre>$40</pre>
+          <pre><del>$50</del> $40</pre>
         </div>
         <div className="img-book">
           <img src={pic2} alt="" />
           <p>
-            <b>Book Name</b>
+            <b>LEADERSHIP WISDOM</b>
           </p>
           <pre>$40</pre>
         </div>
         <div className="img-book">
           <img src={pic3} alt="" />
           <p>
-            <b>Book Name</b>
+            <b>The Grateness Guide</b>
           </p>
           <pre>$40</pre>
         </div>
         <div className="img-book">
           <img src={pic4} alt="" />
           <p>
-            <b>Book Name</b>
+            <b>THE SAINT THE SURFER AND THE CEO</b>
           </p>
           <pre>$40</pre>
         </div>
         <div className="img-book">
           <img src={pic5} alt="" />
           <p>
-            <b>Book Name</b>
+            <b>THE LEADER WHO HAD NO TITLE</b>
           </p>
           <pre>$40</pre>
         </div>
         <div className="img-book">
           <img src={pic6} alt="" />
           <p>
-            <b>Book Name</b>
+            <b>THE 5AM CLUB</b>
           </p>
           <pre>$40</pre>
         </div>
         <div className="img-book">
           <img src={pic7} alt="" />
           <p>
-            <b>Book Name</b>
+            <b>WHO WILL CRY WHEN YOU DIE</b>
           </p>
           <pre>$40</pre>
         </div>
         <div className="img-book">
           <img src={pic8} alt="" />
           <p>
-            <b>Book Name</b>
+            <b>The Monk Who Sold His Ferrari</b>
           </p>
           <pre>$40</pre>
         </div>
       </div>
     </div>
-    
   );
 }
 
