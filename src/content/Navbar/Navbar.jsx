@@ -15,7 +15,7 @@ function Navbar() {
     <div>
       <div className={change ? "nav-main" : "nav-main2"}>
         <div className="nav-1">
-          <h1 className="logo">PapeRow</h1>
+          <Link className="logo-main" to="/"><h1>PapeRow</h1></Link>
         </div>
         <div className="nav-2">
           <ul>

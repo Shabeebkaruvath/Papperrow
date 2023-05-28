@@ -92,9 +92,10 @@
   flex-wrap: wrap;
   align-items: flex-start;
   padding: 90px;
+  
 }
 .img-book img {
-  width: 280px;
+  width: 250px;
 
   height: 400px;
 }
@@ -120,6 +121,7 @@
   flex-wrap: wrap;
   flex-direction: column;
   align-items: flex-start;
+ 
 }
 .more-book h1 {
   text-align: start;
