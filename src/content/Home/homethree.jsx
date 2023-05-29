@@ -20,7 +20,7 @@ function homethree() {
         <img src={book5} alt="5" />
       </div>
       <div className="index33">
-        <button className="btn-viewmore"><Link to="/book" style={{textDecoration:'none',color:'Black'}}>View More</Link></button>
+        <button className="btn-viewmore"><Link to="/book" id="ktr">View More</Link></button>
       </div>
     </div>
   );

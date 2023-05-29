@@ -33,18 +33,24 @@
   background-color: #007acc;
   color: white;
   margin: 10px;
-  
+}
+ #ktr{
+   color: white;
+   text-decoration: none;
+}
+#ktr:hover{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
 }
 .btn-viewmore:hover{
   cursor: pointer;
   width: 100px;
   padding: 14px;
   border-radius: 3px;
+  background-color: white;
   border: 1px solid #007acc;
-  background-color: #ffffff;
-  color: #000000;
+  color: #007acc;
   margin: 10px;
-  
 }
 .index33 {
   display: flex;

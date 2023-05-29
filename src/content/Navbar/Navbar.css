@@ -68,7 +68,7 @@
   width: 100%;
 }
 .nav-2-mobile {
-  padding: 1px;
+  padding-left: 50px;
 }
 .nav-2 ul li:hover,
 .nav-2 ul li:active {
@@ -135,7 +135,7 @@
     width: 100%;
   }
   .nav-2-mobile {
-    padding: 1px;
+    padding: 50px;
     text-align: initial;
   }
 }
@@ -160,8 +160,7 @@
     width: 100%;
   }
   .nav-2-mobile {
-    padding: 1px;
-    text-align: initial;
+    padding-left: 50px;
   }
 }
 
@@ -186,8 +185,7 @@
     width: 100%;
   }
   .nav-2-mobile {
-    padding: 1px;
-    text-align: initial;
+    padding-left: 50px;
   }
 }
 @media (769px <= width <= 888px) {
@@ -211,7 +209,6 @@
     width: 100%;
   }
   .nav-2-mobile {
-    padding: 1px;
-    text-align: initial;
+    padding-left: 50px;
   }
 }

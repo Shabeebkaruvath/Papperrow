@@ -8,6 +8,7 @@ import pic5 from "./book5.jpg";
 import pic6 from "./book6.jpg";
 import pic7 from "./book8.jpg";
 import pic8 from "./book9.jpg";
+ 
 
 function book3() {
   return (
@@ -22,55 +23,87 @@ function book3() {
             <b>THE MONK WHO SOLD HIS FERRARI</b>
           </p>
           <pre><del>$50</del> $40</pre>
+          <div className="book-buy-btn">
+            <button>buy now</button>
+            <button>add to cart</button>
+          </div>
         </div>
         <div className="img-book">
           <img src={pic2} alt="" />
           <p>
             <b>LEADERSHIP WISDOM</b>
           </p>
-          <pre>$40</pre>
+          <pre><del>$50</del> $40</pre>
+          <div className="book-buy-btn">
+            <button>buy now</button>
+            <button>add to cart</button>
+          </div>
         </div>
         <div className="img-book">
           <img src={pic3} alt="" />
           <p>
             <b>The Grateness Guide</b>
           </p>
-          <pre>$40</pre>
+          <pre><del>$50</del> $40</pre>
+          <div className="book-buy-btn">
+            <button>buy now</button>
+            <button>add to cart </button>
+          </div>
         </div>
         <div className="img-book">
           <img src={pic4} alt="" />
           <p>
             <b>THE SAINT THE SURFER AND THE CEO</b>
           </p>
-          <pre>$40</pre>
+          <pre><del>$50</del> $40</pre>
+          <div className="book-buy-btn">
+            <button>buy now</button>
+            <button>add to cart</button>
+          </div>
         </div>
         <div className="img-book">
           <img src={pic5} alt="" />
           <p>
             <b>THE LEADER WHO HAD NO TITLE</b>
           </p>
-          <pre>$40</pre>
+          <pre><del>$50</del> $40</pre>
+          <div className="book-buy-btn">
+            <button>buy now</button>
+            <button>add to cart</button>
+          </div>
         </div>
         <div className="img-book">
           <img src={pic6} alt="" />
           <p>
             <b>THE 5AM CLUB</b>
           </p>
-          <pre>$40</pre>
+          <pre><del>$50</del> $40</pre>
+          <div className="book-buy-btn">
+            <button>buy now</button>
+            <button>add to cart</button>
+          </div>
         </div>
         <div className="img-book">
           <img src={pic7} alt="" />
           <p>
             <b>WHO WILL CRY WHEN YOU DIE</b>
           </p>
-          <pre>$40</pre>
+          <pre><del>$50</del> $40</pre>
+          <div className="book-buy-btn">
+            <button>buy now</button>
+            <button>add to cart</button>
+          </div>
         </div>
         <div className="img-book">
           <img src={pic8} alt="" />
           <p>
             <b>The Monk Who Sold His Ferrari</b>
           </p>
-          <pre>$40</pre>
+          <pre><del>$50</del> $40</pre>
+          <div className="book-buy-btn">
+            <button>buy now</button>
+            <button>add to cart</button>
+          </div>
         </div>
       </div>
     </div>
